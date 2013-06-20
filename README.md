@@ -44,7 +44,7 @@ do this is to:
 0. If we are friends, set a second class on your div:
    `friended`. Otherwise, set `unfriended`
 0. Write a CSS rule so that `.friend_buttons.friended friend` is
-   `visible: false`. Do likewise for `.friend_buttons.unfriended
+   `visibility: hidden`. Do likewise for `.friend_buttons.unfriended
    unfriend`.
 0. Lastly, your `ajax:success` method needs only to swap a class (see
    `$.toggleClass`).
